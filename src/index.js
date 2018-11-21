@@ -1,6 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
-const checkAge = require('../middleware/age').checkAge
+const checkAge = require('./middleware/age').checkAge
 
 const app = express()
 
